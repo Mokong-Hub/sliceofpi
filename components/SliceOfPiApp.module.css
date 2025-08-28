@@ -1,0 +1,24 @@
+.videoBg1 {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.videoBg2 {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+.videoBg3 {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+/* Progress bar width classes for challenges */
+.progressBarWidth0 { width: 0%; }
+.progressBarWidth10 { width: 10%; }
+.progressBarWidth20 { width: 20%; }
+.progressBarWidth30 { width: 30%; }
+.progressBarWidth33 { width: 33%; }
+.progressBarWidth40 { width: 40%; }
+.progressBarWidth50 { width: 50%; }
+.progressBarWidth60 { width: 60%; }
+.progressBarWidth70 { width: 70%; }
+.progressBarWidth80 { width: 80%; }
+.progressBarWidth90 { width: 90%; }
+.progressBarWidth100 { width: 100%; }
+.progressBarWidth73 { width: 73%; }

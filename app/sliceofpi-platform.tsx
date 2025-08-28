@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import styles from './SliceOfPiApp.module.css';
+import styles from '../components/SliceOfPiApp.module.css';
 import { Play, Pause, Heart, MessageCircle, Share, Plus, User, Zap, Coins, TrendingUp, Target, Camera } from 'lucide-react';
 
-const SliceOfPiApp = () => {
+const SliceOfPiPlatform = () => {
   const [currentVideo, setCurrentVideo] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [activeTab, setActiveTab] = useState('home');
@@ -10,7 +10,6 @@ const SliceOfPiApp = () => {
   const [piBalance] = useState(156.8);
   const [dailyStreak] = useState(23);
 
-  // Mock video data
   const videos = [
     {
       id: 1,
@@ -41,7 +40,6 @@ const SliceOfPiApp = () => {
     }
   ];
 
-  // Mock challenges data
   const challenges = [
     { id: 1, title: 'Walk 5000 steps', progress: 0.8, reward: '0.5 PI', type: 'fitness' },
     { id: 2, title: 'Post daily content', progress: 1, reward: '0.3 PI', type: 'social' },
@@ -330,4 +328,4 @@ const SliceOfPiApp = () => {
   );
 };
 
-export default SliceOfPiApp;
+export default SliceOfPiPlatform;
